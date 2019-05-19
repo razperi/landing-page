@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500&display=swap&subset=hebrew');
+
+body 
+{
+    direction:rtl;
+}
+
+#container * {
+    font-family: 'Rubik', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('../imges/Vector_1x-1459286548.png');
+    background-size: 960px 349px;
+    height: 318px;
+}
+h1, h2 {
+    font-size:17pt;
+    text-align: center;
+    margin: 10px 10px;
+    padding-top:10px;
+}
+
+article{
+    text-align:center;
+    line-height:20.5pt;
+}
+
+p{
+    font-size:14pt;
+}
+
+aside{
+    height:86px;
+}
+
+img {
+    height: 60px;
+    width: 90px;
+    position: relative;
+    top: 18px;
+}
+
+a{
+    font-size:18pt;
+}
+
+form {
+    background-color: coral;
+    width: 927px;
+    height:109px;
+    margin: 12px 3px;
+    padding: 23px 14px;
+}
+
+#more {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+#Send {
+    position: relative;
+    top: 10px;
+    right: 448px;
+}
+

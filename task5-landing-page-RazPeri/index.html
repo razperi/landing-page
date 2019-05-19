@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>מתעניינים בתואר בטכנולוגיות למידה?</title>
+    <meta name="description" content="הסבר קצר על התואר הנחשק טגנולוגיות למידה  במכון הטכנולוגי חולון ותיבה להכנסת פרטים ליצירת קשר" />
+    <meta name="keywords" content="טכנולוגיות למידה, המכון הטכנולוגי חולון, HIT, תואר ראשון, למידה מתוקשבת" />
+    <meta name="author" content="Raz Peri" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+            type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>
+               דרושים: אנשים רב תחומיים!
+            </h1>
+            <h2>
+                התחום הטכנולוגי שיסדר אתכם בחיים: הדרכה ,עיצוב וטכנולוגיה
+            </h2>
+
+        </header>
+        <article>
+            <section>
+                <h2>
+                    פיתוח טכנולוגיות למידה
+                </h2>
+                <p>
+                    אנשים צורכים כמויות אדירות של מידע.
+                    באמצעות טכנולוגיה אנחנו מתקשרים זה עם זה, משתפים ידע, לומדים ומלמדים. <br />
+                    מהפכת המידע הטכנולוגית עוררה דרישה גבוהה לאנשי מקצוע
+                    המתמחים בניהול ופיתוח של מערכות הוראה והדרכה חדשניות במוסדות השונים.
+                </p>
+            </section>
+            <section>
+                <h2> למי מתאים התואר?</h2>
+                <p>
+                    אם יש לכם זיקה לתחום ההדרכה, קצת חוש עיצובי ורצון ללמוד על העולם הטכנולוגי המתפתח - זה המקום בשבילכם.<br />
+                    תואר בטכנולוגיות למידה בHIT נוגע בכל אחד מהתחומים החשובים האלו.
+                </p>      
+                
+            </section>
+            <aside>
+                <a href="https://www.hit.ac.il/telem/overview" target="_blank">לעמוד  התואר באתר המכון</a>
+                <img src="imges/HitHolonLogo.svg.png"/>
+            </aside>
+        </article>
+        <form>
+            <input type="hidden" id="myEmail" name="name" value="razperi14@gmail.com">
+            <h2 id="more">רוצים לדעת עוד?</h2>
+            
+            <label for="FirstName">
+                שם פרטי:
+                <input type="text" id="FirstName" placeholder="הכנס שם פרטי" />
+            </label>
+
+            <label for="LastName">
+                שם משפחה:
+                <input type="text" id="LastName" placeholder="הכנס שם משפחה" />
+            </label>
+
+            <label for="mySelect">
+                מסלול
+                <select id="mySelect">
+                    <option value="1">תואר ראשון B.A</option>
+                    <option value="2" selected>תואר שני M.A</option>
+                </select>
+            </label>
+
+            <label for="Email">
+                כתובת מייל:
+                <input type="text" id="email" placeholder="הכנס כתובת מייל" />
+            </label>
+
+            <input type="submit" id="Send" value="שלח">
+            <div id="feedback"></div>
+        </form>    
+    </div>
+</body>
+</html>
